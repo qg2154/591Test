@@ -16,9 +16,15 @@ Testing decisions (why those tests) :
 
 
 Git commands to push my file:
-    git add .
-    git commit -m "all file"
-    git push origin master
+    1.create a repository on github
+    2.change the working directory to current folder
+        git add fwdwaiverexamcit591
+        git add src/ReadFile.java
+        git add src/SocialNetworkRunner.java
+        git add src/TestSNR.java
+        git commit -m "first commit"
+        git remote add origin https://github.com/qg2154/591Test.git
+        git push origin master
 
 How long did this take you (do not count any breaks/food eating etc):
     1 hour 10 min
@@ -26,6 +32,7 @@ How long did this take you (do not count any breaks/food eating etc):
 If you used the internet/books, what did you have to look up? :
     1. how to read data in a separate
     2. semantics for java unit test
+
 
 
 
